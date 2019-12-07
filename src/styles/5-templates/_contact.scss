@@ -1,0 +1,21 @@
+#contact-main {
+  margin-bottom: $page-end-margin;
+
+  #contact-content {
+    width: 100%;
+
+    #contact {
+      width: 100%;
+      @include flex(column, center, center);
+
+      .contact-type {
+        width: 60%;
+        margin-bottom: $vertical-section-margin;
+
+        h3 {
+          margin-bottom: $vertical-section-margin;
+        }
+      }
+    }
+  }
+}

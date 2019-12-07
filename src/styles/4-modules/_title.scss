@@ -1,0 +1,12 @@
+#page-title {
+  width: 100%;
+  background-color: white;
+  margin-top: $page-end-margin;
+  margin-bottom: $page-end-margin;
+  @include flex(column, center, center);
+
+  h2, p {
+    width: 60%;
+    margin-bottom: $vertical-section-margin;
+  }
+}

@@ -1,0 +1,20 @@
+#about-main {
+  margin-bottom: $page-end-margin;
+
+  #about-content {
+    width: 100%;
+
+    #about {
+      width: 100%;
+      @include flex(column, center, center);
+
+      #mission {
+        width: 60%;
+
+        h2 {
+          margin-bottom: $vertical-section-margin;
+        }
+      }
+    }
+  }
+}
