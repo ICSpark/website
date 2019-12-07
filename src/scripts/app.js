@@ -5,7 +5,7 @@ $(document).ready(function(){
       if ($(this).text() === "HOME") {
         window.location.href = "index.html";
       } else {
-        window.location.href = "build/" + $(this).text().toLowerCase() + ".html";
+        window.location.href = $(this).text().toLowerCase() + ".html";
       }
     })
   })
