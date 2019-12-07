@@ -15,6 +15,6 @@ $(document).ready(function(){
   })
 
   $('#register').click(function(){
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdN41Aesx96gRd2frw1w9y10HvqNC26LgXQNi_MuwlpQHqUcg/viewform?usp=sf_link"; 
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdN41Aesx96gRd2frw1w9y10HvqNC26LgXQNi_MuwlpQHqUcg/viewform?usp=sf_link";
   })
 })
