@@ -136,6 +136,17 @@ nav ul {
   justify-content: space-around;
   align-items: center;
 }
+@media (min-width: 400px) {
+  nav ul {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  nav ul {
+    width: 60%;
+  }
+}
 nav li {
   height: 100%;
   letter-spacing: 1px;
@@ -155,7 +166,6 @@ nav li:hover {
 
 footer {
   width: 100%;
-  height: 250px;
   background-color: #121722;
   color: #fffced;
   display: flex;
@@ -163,16 +173,38 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 400px) {
+  footer {
+    height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    height: 250px;
+  }
+}
 footer h3, footer p {
   margin-top: 20px;
 }
 footer #footer-content {
   width: 100%;
   height: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+}
+@media (min-width: 400px) {
+  footer #footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  footer #footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 footer #footer-content .footer-section {
   width: 33%;
@@ -224,10 +256,6 @@ footer #footer-content .footer-section #site-nav {
   width: 100%;
   height: 60%;
   margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 footer #footer-content .footer-section #site-nav h3 {
   padding-left: 0%;
@@ -269,6 +297,10 @@ footer #copyright {
 #page-title h2, #page-title p {
   width: 60%;
   margin-bottom: 20px;
+}
+#page-title strong {
+  font-family: "Open sans", sans-serif;
+  font-weight: bold;
 }
 
 #page-image {

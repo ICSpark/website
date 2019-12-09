@@ -9,6 +9,14 @@ nav {
     height: 100%;
     margin-right: $page-end-margin;
     @include flex(row, space-around, center);
+    @include mobile {
+      width: 100%;
+      margin-right: 0px;
+    }
+    @include desktop {
+      width: 60%;
+    }
+
   }
 
   li {
@@ -24,17 +32,7 @@ nav {
     &:hover {
       border-top: 5px solid $red;
     }
-    // @include mobile {
-    //   color: green;
-    // }
-    // @include tablet {
-    //   color: yellow;
-    // }
-    // @include laptop {
-    //   color: red;
-    // }
-    // @include desktop {
-    //   color: blue;
-    // }
+
+
   }
 }
