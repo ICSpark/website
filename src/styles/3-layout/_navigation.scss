@@ -20,7 +20,7 @@ nav {
       @include flex(column, center, flex-start);
     }
     @include tablet {
-      width: 60%;
+      width: 100%;
       @include flex(row, space-around, center);
     }
   }
