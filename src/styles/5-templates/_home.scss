@@ -23,13 +23,25 @@
   #hero-text {
     width: 50%;
     margin-top: $page-end-margin;
-    margin-left: $page-end-margin*2.5;
-
+    @include mobile {
+      margin-left: 30px;
+      background-color: rgba($red,0.8);
+      padding: 10px;
+    }
+    @include tablet {
+      margin-left: $page-end-margin*2.5;
+      background-color: rgba($red,0);
+    }
     #hero-main {
-      font-size: $hero;
       font-family: $roboto-condensed;
       font-weight: 700;
       margin-bottom: $vertical-section-margin;
+      @include mobile {
+        font-size: $hero/2;
+      }
+      @include tablet {
+        font-size: $hero;
+      }
     }
 
     #hero-caption {
@@ -40,6 +52,12 @@
 
     #cta {
       font-size: $sub-title;
+      @include mobile {
+        background-color: $dark-blue;
+      }
+      @include tablet {
+        background-color: $red;
+      }
     }
   }
 }

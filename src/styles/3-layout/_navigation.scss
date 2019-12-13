@@ -1,22 +1,28 @@
 nav {
   width: 100%;
-  height: 100px;
   background-color: $dark-blue;
   @include flex(row, flex-end, center);
+  @include mobile {
+    height: 300px;
+  }
+  @include tablet {
+    height: 100px;
+  }
 
   ul {
     width: 60%;
     height: 100%;
     margin-right: $page-end-margin;
-    @include flex(row, space-around, center);
     @include mobile {
       width: 100%;
       margin-right: 0px;
+      margin: 30px;
+      @include flex(column, center, flex-start);
     }
-    @include desktop {
+    @include tablet {
       width: 60%;
+      @include flex(row, space-around, center);
     }
-
   }
 
   li {
@@ -31,6 +37,13 @@ nav {
 
     &:hover {
       border-top: 5px solid $red;
+    }
+
+    @include mobile {
+      border-top: 5px solid $light-grey;
+    }
+    @include tablet {
+      border-top: none;
     }
 
 
