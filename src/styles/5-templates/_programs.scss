@@ -18,38 +18,52 @@
 
     #programs {
       width: 60%;
-      @include flex(row,space-between,flex-start);
+      @include flex(column,space-between,flex-start);
 
       .program-info {
-        width: 45%;
+        border: 1px solid $dark-blue;
 
-        .program-info-logistics {
-          margin-bottom: $vertical-section-margin;
+        margin-bottom: $vertical-section-margin;
+        width: 100%;
+        @include flex(row, center, center);
 
-          h3,h4 {
-            margin-bottom: $vertical-section-margin;
-          }
+        img {
+          width: 400px;
         }
 
-        .program-info-description {
-          margin-bottom: $vertical-section-margin;
+        .program-info-container {
+          padding: 10px;
 
-          p {
+          .program-info-logistics {
             margin-bottom: $vertical-section-margin;
-          }
 
-          ul {
-            margin: $vertical-section-margin;
-
-            li {
-              margin-bottom: $vertical-section-margin/2;
+            h3,h4 {
+              margin-bottom: $vertical-section-margin;
             }
           }
-
-          a:hover {
-            color: $dark-blue;
-          }
         }
+
+
+        //
+        // .program-info-description {
+        //   margin-bottom: $vertical-section-margin;
+        //
+        //   p {
+        //     margin-bottom: $vertical-section-margin;
+        //   }
+        //
+        //   ul {
+        //     margin: $vertical-section-margin;
+        //
+        //     li {
+        //       margin-bottom: $vertical-section-margin/2;
+        //     }
+        //   }
+        //
+        //   a:hover {
+        //     color: $dark-blue;
+        //   }
+        // }
       }
     }
   }

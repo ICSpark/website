@@ -10,7 +10,6 @@ nav {
   }
 
   ul {
-    width: 60%;
     height: 100%;
     margin-right: $page-end-margin;
     @include mobile {
@@ -20,7 +19,7 @@ nav {
       @include flex(column, center, flex-start);
     }
     @include tablet {
-      width: 60%;
+      width: 80%;
       @include flex(row, space-around, center);
     }
   }

@@ -6,7 +6,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -137,7 +137,6 @@ nav {
   }
 }
 nav ul {
-  width: 60%;
   height: 100%;
   margin-right: 50px;
 }
@@ -154,7 +153,7 @@ nav ul {
 }
 @media (min-width: 768px) {
   nav ul {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -428,33 +427,30 @@ footer .copyright {
 #program-main #program-content #programs {
   width: 60%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 #program-main #program-content #programs .program-info {
-  width: 45%;
+  border: 1px solid #121722;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-#program-main #program-content #programs .program-info .program-info-logistics {
+#program-main #program-content #programs .program-info img {
+  width: 400px;
+}
+#program-main #program-content #programs .program-info .program-info-container {
+  padding: 10px;
+}
+#program-main #program-content #programs .program-info .program-info-container .program-info-logistics {
   margin-bottom: 20px;
 }
-#program-main #program-content #programs .program-info .program-info-logistics h3, #program-main #program-content #programs .program-info .program-info-logistics h4 {
+#program-main #program-content #programs .program-info .program-info-container .program-info-logistics h3, #program-main #program-content #programs .program-info .program-info-container .program-info-logistics h4 {
   margin-bottom: 20px;
-}
-#program-main #program-content #programs .program-info .program-info-description {
-  margin-bottom: 20px;
-}
-#program-main #program-content #programs .program-info .program-info-description p {
-  margin-bottom: 20px;
-}
-#program-main #program-content #programs .program-info .program-info-description ul {
-  margin: 20px;
-}
-#program-main #program-content #programs .program-info .program-info-description ul li {
-  margin-bottom: 10px;
-}
-#program-main #program-content #programs .program-info .program-info-description a:hover {
-  color: #121722;
 }
 
 #people-main {
