@@ -1,14 +1,18 @@
 #people-main {
   width: 100%;
   margin-bottom: $page-end-margin;
+
   #people-content {
     width: 100%;
+
     .profile-section {
       width: 100%;
       margin-bottom: $page-end-margin;
       @include flex(column, center, center);
+
       .profiles {
         width: 60%;
+        
         .profile {
           width: 100%;
           box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
