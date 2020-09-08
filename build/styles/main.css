@@ -676,4 +676,59 @@ footer .copyright {
   opacity: 1;
 }
 
+#alumni-main {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#alumni-main #alumni-content {
+  width: 100%;
+}
+#alumni-main #alumni-content .alumni-section {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#alumni-main #alumni-content .alumni-section .alumnis {
+  width: 60%;
+}
+#alumni-main #alumni-content .alumni-section .alumnis .alumni {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* Author: Jennifer Hsu, 11/2019 */
+}
+@media screen and (max-width: 850px) {
+  #alumni-main #alumni-content .alumni-section .alumnis .alumni {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+#alumni-main #alumni-content .alumni-section .alumnis .alumni div {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+#alumni-main #alumni-content .alumni-section .alumnis .alumni div h4, #alumni-main #alumni-content .alumni-section .alumnis .alumni div h5 {
+  text-align: center;
+}
+#alumni-main #alumni-content .alumni-section .alumnis .alumni div .img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#alumni-main #alumni-content .alumni-section .alumnis .alumni div img {
+  -webkit-box-ordinal-group: 3;
+  order: 2;
+  width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+#alumni-main {
+  width: 100%;
+  margin-bottom: $page-end-margin;
+
+  #alumni-content {
+    width: 100%;
+
+    .alumni-section {
+      width: 100%;
+      margin-bottom: $page-end-margin;
+      @include flex(column, center, center);
+
+      .alumnis {
+        width: 60%;
+
+        .alumni {
+          width: 100%;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          margin-top: $vertical-section-margin;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          /* Author: Jennifer Hsu, 11/2019 */
+          @media screen and (max-width: 850px) {
+            @include flex(column, space-around, center);
+          }
+
+          div {
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            h4, h5 {
+              text-align: center;
+            }
+
+            .img-container {
+              width: 200px;
+              height: 200px;
+              overflow: hidden;
+              border-radius: 50%;
+            }
+
+            img {
+              -webkit-box-ordinal-group: 3;
+              order: 2;
+              width: 100%;
+              height: auto;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

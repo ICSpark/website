@@ -12,38 +12,45 @@
 
       .profiles {
         width: 60%;
-        
+
         .profile {
           width: 100%;
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
           margin-top: $vertical-section-margin;
           @include flex(row, space-around, center);
           /* Author: Jennifer Hsu, 11/2019 */
           @media screen and (max-width: 850px) {
             @include flex(column, space-around, center);
           }
+
+
           /* Author: Jennifer Hsu, 11/2019 */
           .profile-text {
             width: 80%;
             margin: $vertical-section-margin;
             -webkit-box-ordinal-group: 3;
             order: 1;
+
             h4, h5 {
               margin-bottom: $vertical-section-margin;
             }
+
             /* Author: Jennifer Hsu, 11/2019 */
             .social-media {
               padding-top: 10px;
+
               img {
                 margin: 10px;
                 width: 40px;
                 border-radius: 200px;
               }
+
               img:hover {
                 box-shadow: 0px 0px 5px $dark-blue;
               }
             }
           }
+
           /* Author: Jennifer Hsu, 11/2019 */
           img {
             margin: $vertical-section-margin;
@@ -52,6 +59,7 @@
             -webkit-box-ordinal-group: 3;
             order: 2;
           }
+
           /* Author: Jennifer Hsu, 11/2019 */
           @media screen and (max-width: 850px) {
             img {
