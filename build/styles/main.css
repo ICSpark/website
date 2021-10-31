@@ -441,9 +441,20 @@ footer .copyright {
   align-items: center;
 }
 #program-main #program-content #programs .program-info img {
-  width: 400px;
-  height: 200px;
+  width: 450px;
+  height: 350px;
 }
+
+@media screen and (max-width: 950px) {
+  #program-main #program-content #programs .program-info {
+    display: flex;
+    flex-direction: column;
+  }
+  #program-main #program-content #programs .program-info img {
+    width: 100%;
+  }
+}
+
 #program-main #program-content #programs .program-info .program-info-container {
   padding: 10px;
 }
