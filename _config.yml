@@ -1,0 +1,13 @@
+sass:
+  sass_dir: _sass
+
+url: "https://icspark.github.io/"
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false

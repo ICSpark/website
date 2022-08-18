@@ -1,0 +1,91 @@
+h1 {
+  font-family: $archivo;
+  font-size: $h1;
+  font-weight: 450;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: $archivo-narrow;
+  font-size: $h2;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-family: $archivo-narrow;
+  font-size: $h3;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: $archivo-narrow;
+  font-size: $h4;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+h5 {
+  font-family: $archivo-narrow;
+  font-size: $h5;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+h6 {
+  font-family: $archivo-narrow;
+  font-size: $h6;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+p {
+  font-family: $open-sans;
+  font-size: $p;
+  line-height: 1.5;
+}
+
+li {
+  font-family: $archivo-narrow;
+}
+
+a {
+  text-decoration: none;
+  font-family: $open-sans;
+  letter-spacing: 1px;
+  color: white;
+  font-size: $p;
+  font-weight: 350;
+  &:hover {
+    color: $yellow;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 10px;
+  background-color: $red;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-family: $roboto-condensed;
+
+  &:hover {
+    box-shadow: 0 1px 3px $light-grey, 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+

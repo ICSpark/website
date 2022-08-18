@@ -1,148 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="build/styles/main.css">
-  <title>ICSpark</title>
-</head>
-<body>
-  <div class="container">
-    <!-- Navigation bar.  -->
-    <nav>
-      <ul>
-        <li>HOME</li>
-        <li>PROGRAMS</li>
-        <li>PEOPLE</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
-        <li>SHOWCASE</li>
-      </ul>
-    </nav>
+---
+layout: default
+title: Showcase
+---
 
-    <!-- Showcase page content section. -->
-    <section id="showcase-main">
-      <div class="page-image">
-        <img src="build/images/headers/people.png" alt="">
-      </div>
-      <div class="page-title">
-        <h2>FINAL PROJECT SHOWCASE</h2>
-        <p>Students were instructed to submit a final project at the end of the course. It could be a completed assigned project, or a totally new creation of their own.
-         Mentors provided comments for each submission for improvement, but was overall surprised with the effort that students put into their projects despite the challenges that COVID-19 brought this
-         semester. Great job, young coders!</p>
-      </div>
-      <div class="page-title">
-        <h2>FEATURED PROJECTS</h2>
-        <p>We thought that several projects went beyond our expectations due to originality and creativity, thoughtfulness, and overall effort and time spent on the project.
-           Check out their final projects by clicking on the images!</p>
-      </div>
-      <div id="featured">
+<!-- Showcase page content section. -->
+<section id="showcase-main">
+    <div class="page-image">
+      <img src="assets/images/people/people.png" alt="">
+    </div>
+    <div class="page-title">
+      <h4>FINAL PROJECT SHOWCASE</h4>
+      <p>Students were instructed to submit a final project at the end of the course. It could be a completed assigned project, or a totally new creation of their own.
+       Mentors provided comments for each submission for improvement, but was overall surprised with the effort that students put into their projects despite the challenges that COVID-19 brought this
+       semester. Great job, young coders!</p>
+    </div>
+    <div class="page-title">
+      <h4>FEATURED PROJECTS</h4>
+      <p>We thought that several projects went beyond our expectations due to originality and creativity, thoughtfulness, and overall effort and time spent on the project.
+         Check out their final projects by clicking on the images!</p>
+    </div>
+    <div id="featured">
+      {% for project in site.data.projects %}
         <div id="featured-project-container">
           <div class="featured-project">
-            <a target="blank" href="https://ke-kahakai.glitch.me/"><img class="project-img" src="build/images/projects/2022/lauren_kawaii.png" alt="project-image"></a>
+            <a target="blank" href="{{project[1].link}}"><img class="project-img" src="{{ project[1].img }}" alt="project-image"></a>
             <div class="featured-project-info">
-              <h4>LAUREN'S INTERACTIVE STORYBOOK</h4>
-              <h5>CLASS: INTRO TO WEB DEV (SPRING 2022)</h5>
-              <p> Do you want to learn more about ʻōlelo Hawaiʻi or the Hawaiian language? Take a look at Lauren's short storybook
-                about a journey to the beach and explore the values of taking care of our people. </p>
+              <h4>{{project[1].name}}</h4>
+              <p>Class: {{project[1].class}}</p>
+              <p> {{project[1].bio}} </p>
             </div>
           </div>
         </div>
-        <div id="featured-project-container">
-          <div class="featured-project">
-            <a target="blank" href="https://icspark-final-project---interactive-piano.glitch.me/"><img class="project-img" src="build/images/projects/2022/ethan_chiu.png" alt="project-image"></a>
-            <div class="featured-project-info">
-              <h4>ETHAN'S PIANO PLAYER</h4>
-              <h5>CLASS: INTRO TO WEB DEV (SPRING 2022)</h5>
-              <p> Looking for a way to express your musical interest without buying an instrument? Now you can with Ethan's Piano Player.
-              This online piano player can play a note with a touch of a key and intertwining them could make a harmonic sound.  </p>
-            </div>
-          </div>
-        </div>
-        <div id="featured-project-container">
-          <div class="featured-project">
-            <a target="blank" href="https://final-project-pvz-alamnac.glitch.me/"><img class="project-img" src="build/images/projects/2022/jack_nagasaka.png" alt="project-image"></a>
-            <div class="featured-project-info">
-              <h4>JACK'S PvZ ALMANAC</h4>
-              <h5>CLASS: INTRO TO WEB DEV (SPRING 2022)</h5>
-              <p> Watch out!! Waves of zombies are slowly approaching you, luckily Jack's Plants vs. Zombies almanac
-              can help you. It provides some the best plants to help you defend and defeat the zombies!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="page-title">
-        <h2>SPRING 2021 FINAL PROJECTS</h2>
-        <p>Check out these other projects! Great start and our mentors are looking forward to its continued development.
-        We particularly enjoyed the creative touch that several students added to their projects.</p>
-      </div>
-      <div id="final-projects">
-        <div id="final-projects-container">
-          <a target="blank" href="https://my-to-do-list2-by-icspark.glitch.me/">
-            <img class="project-img" src="build/images/projects/featured/2021_SP_emily_l.png" alt="">
+      {% endfor %}
+    </div>
+    <div class="page-title">
+      <h4>SPRING 2021 FINAL PROJECTS</h4>
+      <p>Check out these other projects! Great start and our mentors are looking forward to its continued development.
+      We particularly enjoyed the creative touch that several students added to their projects.</p>
+    </div>
+    <div id="final-projects">
+      <div id="final-projects-container">
+        {% for p in site.data.projects_2021 %}
+          <a target="_blank" href="{{p[1].link}}">
+            <img class="project-img" src="{{p[1].img}}" alt="">
             <div class="info-hover">
-              <h4>EMILY'S CUSTOM TO-DO LIST</h4>
+              <h5>{{p[1].name}}</h5>
             </div>
           </a>
-          <a target="blank" href="https://xiao-tic-tac.glitch.me/TicTacToe.html">
-            <img class="project-img" src="build/images/projects/featured/2021_SP_xiao_c.png" alt="">
-            <div class="info-hover">
-              <h4>XIAOKANG'S TICTACTOE GAME</h4>
-            </div>
-          </a>
-          <a target="blank" href="https://momentous-broad-bowl.glitch.me/">
-            <img class="project-img" src="build/images/projects/featured/2021_SP_andrew_h.png" alt="">
-            <div class="info-hover">
-              <h4>ANDREW'S SMOOTHIE CREATOR</h4>
-            </div>
-          </a>
-        </div>
+        {% endfor %}
       </div>
-    </section>
-
-    <!-- Footer. -->
-    <footer>
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>CONTACT</h3>
-          <p>icspark@hawaii.edu</p>
-        </div>
-        <div class="footer-section">
-          <h3>SOCIAL</h3>
-          <div class="social-bar">
-            <div class="inner-social-bar">
-              <div><a target="_blank" href="https://www.facebook.com/icsparkhawaii/"><img src="build/images/logos/facebook.png" alt=""></a></div>
-              <div><a target="_blank" href="https://github.com/ICSpark"><img src="build/images/logos/github-logo-white.png" alt=""></a></div>
-              <div><a href="http://eepurl.com/gMpfNP"><img src="build/images/logos/mailchimp.png" alt=""></a></div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-section">
-          <h3>NAVIGATION</h3>
-          <div class="site-nav">
-            <div>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="people.html">People</a></li>
-              </ul>
-              <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="showcase.html">Showcase</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- reference https://stackoverflow.com/questions/4562587/shortest-way-to-print-current-year-in-a-website by T.J. Crowder -->
-      <div class="copyright"><p>Copyright <script>document.write(new Date().getFullYear())</script>.</p></div>
-    </footer>
-  </div>
-
-  <script src="src/scripts/vendors/jquery-3.4.1.min.js"></script>
-  <script src="src/scripts/app.js"></script>
-</body>
-</html>
+    </div>
+  </section>

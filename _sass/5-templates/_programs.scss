@@ -1,0 +1,72 @@
+#program-main {
+  margin-bottom: $page-end-margin;
+  @include flex(column,center,center);
+  width: 100%;
+ 
+
+  #program-content {
+    width: 100%;
+    @include flex(column,center,center);
+
+    #button-container {
+      width: 100%;
+      @include flex(row, center, center);
+
+      button {
+        font-size: $sub-sub-title;
+        margin-top: $vertical-section-margin;
+        margin-bottom: $vertical-section-margin;
+      }
+    }
+
+    #programs {
+      width: 60%;
+      @include flex(column,space-between,flex-start);
+
+      .program-info {
+        border: 1px solid $dark-blue;
+        margin-bottom: $vertical-section-margin;
+        width: 100%;
+        @include flex(row, center, center);
+
+        img {
+          width: 400px;
+        }
+
+        .program-info-container {
+          padding: 10px;
+
+          .program-info-logistics {
+            margin-bottom: $vertical-section-margin;
+
+            h3,h4 {
+              margin-bottom: $vertical-section-margin;
+            }
+          }
+        }
+
+
+        //
+        // .program-info-description {
+        //   margin-bottom: $vertical-section-margin;
+        //
+        //   p {
+        //     margin-bottom: $vertical-section-margin;
+        //   }
+        //
+        //   ul {
+        //     margin: $vertical-section-margin;
+        //
+        //     li {
+        //       margin-bottom: $vertical-section-margin/2;
+        //     }
+        //   }
+        //
+        //   a:hover {
+        //     color: $dark-blue;
+        //   }
+        // }
+      }
+    }
+  }
+}

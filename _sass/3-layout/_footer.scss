@@ -1,0 +1,30 @@
+#footer {
+	width: 100%;
+	height: 100px;
+	background-color: $bg;
+	color: white;
+  @include flex(column, center, center);
+
+	@include laptop{
+		height: 250px;
+	}
+}
+
+#footer-main {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+  @include flex(row, space-between, center);
+
+	@include laptop{
+		@include flex(column, center, center);
+	}
+}
+
+.social {
+	img {
+		width: 50px;
+		border-radius: 10px;
+		margin: 5px;
+	}
+}

@@ -1,0 +1,39 @@
+albert:
+  name: ALBERT'S OAHU GUIDE
+  class: Intro to Web Dev (Spring 2020) 
+  bio: Take a tour around Oahu with Albert on his Oahu Guide website! Learn about the
+              history of Hawaii, find near tourist spots, or discover popular malls around the island.
+  link: https://oahu-guide.glitch.me/index.html
+  img: assets/images/projects/featured/2020_SP_albert_k.png
+
+tim:
+  name: TIM'S COOL WEBPAGE
+  class: Intro to Web Dev (Spring 2020) 
+  bio: Join Tim for a cool website adventure! Explore colorful RainbowLand
+             and the chill of IceVille, or be mesmerized in the ColorSpectrum. Sign up for
+             Tim and Connor's camping adventure at a discounted price - oh wait...
+  link: https://reinvented-nice-baroness.glitch.me/
+  img: assets/images/projects/featured/2020_SP_tim_f.png
+
+lindsay:
+  name: LINDSAY'S CUSTOM KANBAN BOARD
+  class: Open Lab (Spring 2020) 
+  bio: Looking for a way to visualize your to-do list? Quickly add new entries by pressing the Enter key, then drag each item
+              to its appropriate column, or click to instantly label it as done! And it stays even after you reload the page?!
+  link: https://custom-kanban-v2.glitch.me/
+  img: assets/images/projects/featured/2020_SP_lindsay_m.png
+
+kaleo:
+  name: GRANDPA CLICKER BY KALEO
+  link: https://miniature-wirehaired-calcium.glitch.me/
+  img: assets/images/projects/featured/2020_SP_kaleo_h.png
+
+maika:
+  name: SKATEBOARD DESIGNER BY MAIKA
+  link: https://reinvented-nice-baroness.glitch.me/
+  img: assets/images/projects/featured/2020_SP_maika_c.png
+
+bradleyandriley:
+  name: POP UP PENGUINS BY BRADLEY AND RILEY
+  link: https://valuable-parallel-dew.glitch.me/
+  img: assets/images/projects/featured/2020_SP_bradley_riley_u.png

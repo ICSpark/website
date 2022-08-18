@@ -1,80 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="build/styles/main.css">
-  <title>ICSpark</title>
-</head>
-<body>
-  <div class="container">
-    <!-- Navigation bar.  -->
-    <nav>
-      <ul>
-        <li>HOME</li>
-        <li>PROGRAMS</li>
-        <li>PEOPLE</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
-        <li>SHOWCASE</li>
-      </ul>
-    </nav>
-
-    <!-- Home page content section. -->
-    <section id="home-main">
-      <div id="hero">
-        <div id="announcements"></div>
-        <div id="hero-text">
-          <h1 id="hero-main">START CODING</h1>
-          <p id="hero-caption">Free Saturday coding mentorship for 6th - 12th graders from University of Hawaii at Manoa computer science peers. Classes currently virtual.</p>
-          <button id="cta">VIEW PROGRAMS</button>
-        </div>
+---
+layout: default
+title: Home
+---
+<div class="home">
+  <section id="home-main">
+    <div id="hero">
+      <div id="announcements"></div>
+      <div id="hero-text">
+        <h1 id="hero-main">START CODING</h1>
+        <p id="hero-caption">Free Saturday coding mentorship for 6th - 12th graders from University of Hawaii at Manoa computer science peers</p>
+        <button id="cta"><a href="/programs.html">VIEW PROGRAMS</a></button>
       </div>
-    </section>
-
-    <!-- Footer. -->
-    <footer>
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>CONTACT</h3>
-          <p>icspark@hawaii.edu</p>
-        </div>
-        <div class="footer-section">
-          <h3>SOCIAL</h3>
-          <div class="social-bar">
-            <div class="inner-social-bar">
-              <div><a target="_blank" href="https://www.facebook.com/icsparkhawaii/"><img src="build/images/logos/facebook.png" alt=""></a></div>
-              <div><a target="_blank" href="https://github.com/ICSpark"><img src="build/images/logos/github-logo-white.png" alt=""></a></div>
-              <div><a href="http://eepurl.com/gMpfNP"><img src="build/images/logos/mailchimp.png" alt=""></a></div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-section">
-          <h3>NAVIGATION</h3>
-          <div class="site-nav">
-            <div>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="people.html">People</a></li>
-              </ul>
-              <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="showcase.html">Showcase</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- reference https://stackoverflow.com/questions/4562587/shortest-way-to-print-current-year-in-a-website by T.J. Crowder -->
-      <div class="copyright"><p>Copyright <script>document.write(new Date().getFullYear())</script>.</p></div>
-    </footer>
-  </div>
-
-  <script src="src/scripts/vendors/jquery-3.4.1.min.js"></script>
-  <script src="src/scripts/app.js"></script>
-</body>
-</html>
+    </div>
+  </section>
+</div>
