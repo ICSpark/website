@@ -12,11 +12,11 @@ timothy:
   bio: Hello everyone! My name is Timothy and I am a senior majoring in Computer Science at the University of Hawaii at Manoa. My interest is in software development. I enjoy playing video games and hiking. I can't wait to meet you all!
   subject: Web Dev
 
-joshua:
-  full_name: Joshua Galeria (Lecturer)
+michelle:
+  full_name: Michelle Leano (Lecturer)
   linkedin:
-  profile: assets/images/profiles/joshua_g.jpg
-  bio: Hi everyone! My name is Joshua and I'm a current junior pursuing my BS in Computer Engineering. I'm hoping to become a software engineer in the future! During my free time, I like to surf or go to the gym, anything that keeps me active. I look forward to meeting all of you!
+  profile: assets/images/profiles/michelle_l.jpg
+  bio: Hello! I am Michelle Leano and I am a transfer student at UH Mānoa. My major is Computer Science - General. In my free time, I like to binge watch Netflix and research about the latest NFTs.
   subject: Web Dev
 
 sydnee:
@@ -41,17 +41,3 @@ amanda:
   profile: assets/images/profiles/amanda_n.jpg
   bio: Aloha everyone! My name is Amanda Nitta and I am a Junior in Computer Science - Data Science at the University of Hawaii at Manoa. I am involved in the local Okinawan community in the islands, and in my free time I like to go hiking and spend time with friends! I look forward to meeting with you all!
   subject: Web Dev  
-
-jake:
-  full_name: Jake Hardy
-  linkedin:
-  profile: assets/images/profiles/jake_h.jpg
-  bio: Hi! My name is Jake and I’m currently a senior at the University of Hawaii at Manoa studying Information Computer Science. In my free time I enjoy teaching scuba diving, free diving, surfing, and hiking. I look forward to working with everyone!
-  subject: Web Dev
-
-michelle:
-  full_name: Michelle Leano
-  linkedin:
-  profile: assets/images/profiles/michelle_l.jpg
-  bio: Hello! I am Michelle Leano and I am a transfer student at UH Mānoa. My major is Computer Science - General. In my free time, I like to binge watch Netflix and research about the latest NFTs.
-  subject: Web Dev

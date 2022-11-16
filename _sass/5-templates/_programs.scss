@@ -24,10 +24,9 @@
       @include flex(column,space-between,flex-start);
 
       .program-info {
-        border: 1px solid $dark-blue;
         margin-bottom: $vertical-section-margin;
         width: 100%;
-        @include flex(row, center, center);
+        @include flex(column, center, center);
 
         img {
           width: 400px;
@@ -38,6 +37,14 @@
 
           .program-info-logistics {
             margin-bottom: $vertical-section-margin;
+
+            img {
+              width: 100%;  
+            }
+
+            a {
+              color: $red;
+            }
 
             h3,h4 {
               margin-bottom: $vertical-section-margin;
