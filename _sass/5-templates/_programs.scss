@@ -77,3 +77,28 @@
     }
   }
 }
+
+.post-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+}
+
+.post-button {
+  background-color: $red;
+  font-size: 19px;
+  color: white;
+
+  &:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

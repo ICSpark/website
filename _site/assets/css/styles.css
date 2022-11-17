@@ -172,6 +172,14 @@ nav #logo { width: 350px; padding-left: 20px; }
 
 #program-main #program-content #programs .program-info .program-info-container .program-info-logistics h3, #program-main #program-content #programs .program-info .program-info-container .program-info-logistics h4 { margin-bottom: 20px; }
 
+.post-center { display: flex; flex-direction: column; align-items: center; }
+
+.post-center p { padding: 0; margin: 0; margin-block-start: 0em; margin-block-end: 0em; }
+
+.post-button { background-color: #e04c1e; font-size: 19px; color: white; }
+
+.post-button:hover { color: white; text-decoration: underline; cursor: pointer; }
+
 #contact-main { margin-bottom: 50px; }
 
 #contact-main #contact-content { width: 100%; }
