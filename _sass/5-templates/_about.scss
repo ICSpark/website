@@ -15,4 +15,11 @@
         }
       }
     }
+
+    a {
+      color: $yellow;
+      &:hover {
+        color: $yellow;
+      }
+    }
   }

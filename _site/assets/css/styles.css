@@ -148,6 +148,10 @@ nav #logo { width: 350px; padding-left: 20px; }
 
 #about-main #about-content #about #mission { width: 60%; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
+#about-main a { color: #DF4C1E; }
+
+#about-main a:hover { color: #DF4C1E; }
+
 #program-main { margin-bottom: 50px; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; }
 
 #program-main #program-content { width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; }
