@@ -47,6 +47,13 @@ alvin:
   bio: Hello! My name is Alvin and I am a senior majoring in Computer Science at UH Manoa. I hope to work as a software engineer in the future. In my free time I like playing video games and listening to music.
   subject: Web Dev  
 
+briana:
+  full_name: Briana Lee
+  linkedin: 
+  profile: assets/images/profiles/briana_lee.jpg
+  bio: Hi everyone, my name is Briana and I am a sophomore majoring in Computer Science at UH Mānoa.  
+  subject: Web Dev  
+
 jordan:
   full_name: Jordan Le
   linkedin: 
@@ -102,3 +109,4 @@ yhanessa:
   profile: assets/images/profiles/yhanessa_sales.jpg
   bio: Hi! My name is Yhanessa and I am senior majoring in Computer Science at UH Manoa. I enjoy doing music and hanging out with friends.
   subject: Web Dev  
+  
