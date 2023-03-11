@@ -1,19 +1,12 @@
-preston:
-  full_name: Preston Garcia (President)
-  linkedin: https://www.linkedin.com/in/preston-garcia-371112204/
-  profile: assets/images/profiles/preston_g.jpg
-  bio: My name is Preston and I am a UH Manoa student transferred from Leeward Community College majoring in Computer Science on the Data Science track minoring in Mathematics. I am very interested in machine learning and video games.
-  subject: Web Dev
-
 timothy:
-  full_name: Timothy Huo (Vice-President)
+  full_name: Timothy Huo (President)
   linkedin: https://www.linkedin.com/in/timothy-huo-087b121b5/
   profile: assets/images/profiles/timothy_huo.jpg
   bio: Hello everyone! My name is Timothy and I am a senior majoring in Computer Science at the UH Manoa. My interest is in software development. I enjoy playing video games and hiking. I can't wait to meet you all!
   subject: Web Dev
 
 michelle:
-  full_name: Michelle Leano (Lecturer)
+  full_name: Michelle Leano (Vice-President & Lecturer)
   linkedin:
   profile: assets/images/profiles/michelle_l.jpg
   bio: Hello! I am Michelle Leano and I am senior majoring in Computer Science. I enjoy running and spending time with family and friends.
@@ -33,39 +26,25 @@ marissa:
   bio: Hi everyone! My name is Marissa, I'm a UH Manoa senior who is majoring in computer science and animation. Outside of school, I enjoy watching YouTube, reading, and doing various arts & crafts. 
   subject: Web Dev
 
-amanda:
-  full_name: Amanda Nitta (Marketing Officer)
-  linkedin: https://www.linkedin.com/in/amanda-nitta/
-  profile: assets/images/profiles/amanda_n.jpg
-  bio: Aloha everyone! My name is Amanda Nitta and I am a Junior in Computer Science - Data Science at the University of Hawaii at Manoa. I am involved in the local Okinawan community in the islands, and in my free time I like to go hiking and spend time with friends! I look forward to meeting with you all!
-  subject: Web Dev  
+briana:
+  full_name: Briana Lee (Marketing Officer)
+  linkedin: 
+  profile: assets/images/profiles/briana_lee.jpg
+  bio: Hi everyone, my name is Briana and I am a sophomore majoring in Computer Science at UH Mānoa. I enjoy watching shows, drawing, and spending time with my friends.  
+  subject: Web Dev 
 
 alvin:
   full_name: Alvin Edrada
   linkedin: 
   profile: assets/images/profiles/alvin_edrada.jpg
   bio: Hello! My name is Alvin and I am a senior majoring in Computer Science at UH Manoa. I hope to work as a software engineer in the future. In my free time I like playing video games and listening to music.
-  subject: Web Dev  
-
-briana:
-  full_name: Briana Lee
-  linkedin: 
-  profile: assets/images/profiles/briana_lee.jpg
-  bio: Hi everyone, my name is Briana and I am a sophomore majoring in Computer Science at UH Mānoa. I enjoy watching shows, drawing, and spending time with my friends.  
-  subject: Web Dev  
+  subject: Web Dev   
 
 jordan:
   full_name: Jordan Le
   linkedin: 
   profile: 
   bio: I am a UH Manoa student majoring in BA Information and Computer Sciences.  I'm also in the Creative Computational Media (CCM) certificate.  You could say that I'm a software enthusiast.  I am passionate in computer programming and digital art.  I like to help people learn how to code and bring new ideas relating to coding.  It would be a pleasure to help the younger generation learn coding.    
-  subject: Web Dev
-
-kobey:
-  full_name: Kobey Arai
-  linkedin: 
-  profile: assets/images/profiles/kobey_arai.jpg
-  bio: Aloha, my name is Kobey. I am currently a Computer Science Senior at the University of Hawaii at Manoa. Currently, I work at Hawaiian Airlines as a Software Development Engineer doing web app development. In my free time, I like to learn new things on Youtube and tinker with all things tech. 
   subject: Web Dev
 
 leilani:
@@ -94,6 +73,13 @@ michael:
   linkedin: 
   profile: assets/images/profiles/michael_jake_sumaylo.jpg
   bio: Hi! My name is Michael, and I am a junior in Computer Science. Video game development and design are my main interests. Outside of class, I enjoy playing games, listening to music, and watching anime and basketball. I look forward to meeting everyone!
+  subject: Web Dev
+
+preston:
+  full_name: Preston Garcia # previous President and Lecturer
+  linkedin: https://www.linkedin.com/in/preston-garcia-371112204/
+  profile: assets/images/profiles/preston_g.jpg
+  bio: My name is Preston and I am a UH Manoa student transferred from Leeward Community College majoring in Computer Science on the Data Science track minoring in Mathematics. I am very interested in machine learning and video games.
   subject: Web Dev
 
 river:
