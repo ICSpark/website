@@ -70,12 +70,6 @@ logan:
   start: "2020"
   end: "2021"
 
-jeff:
-  name: Jeff Wong
-  role: Mentor
-  start: "2019"
-  end: "2022"
-
 patrick:
   name: Patrick McCrindle
   role: Mentor, President
@@ -112,6 +106,48 @@ joshua:
   start: "2021"
   end: "2022"
 
+michelle:
+  name: Michelle Leano
+  role: Mentor, Lecturer, Vice-President
+  start: "2021"
+  end: "2023"
+
+marissa:
+  name: Marissa Halim
+  role: Mentor, Treasurer
+  start: "2020"
+  end: "2023"
+
+alvin:
+  name: Alvin Edrada
+  role: Mentor
+  start: "2022"
+  end: "2023"
+
+leilani:
+  name: Leilani Reich
+  role: Mentor
+  start: "2022"
+  end: "2023"
+
+preston:
+  name: Preston Garcia 
+  role: Lecturer, President
+  start: "2021"
+  end: "2023"
+
+river:
+  name: River Matsumoto
+  role: Mentor
+  start: "2022"
+  end: "2023"
+
+yhanessa:
+  name: Yhanessa Sales
+  role: Mentor
+  start: "2022"
+  end: "2023"
+
 kobey:
   name: Kobey Arai
   role: Mentor
@@ -123,7 +159,3 @@ amanda:
   role: Mentor, Marketing
   start: "2022"
   end: "2023"
-
-
-
-
