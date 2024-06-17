@@ -44,7 +44,7 @@ tina:
   name: Tina Loos
   role: Mentor 
   start: "2019"
-  end: 202"0
+  end: "2020"
 
 timoteo:
   name: Timoteo Sumalinog III
@@ -159,3 +159,21 @@ amanda:
   role: Mentor, Marketing
   start: "2022"
   end: "2023"
+
+liliana:
+  name: Liliana Royer
+  role: Mentor
+  start: "2022"
+  end: "2024"
+
+timothy:
+  name: Timothy Huo
+  role: Mentor, President
+  start: "2019"
+  end: "2024"
+  
+michael:
+  name: Michael Jake Sumaylo
+  role: Mentor, Lecturer
+  start: "2020"
+  end: "2024"

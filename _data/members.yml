@@ -1,22 +1,15 @@
-timothy:
-  full_name: Timothy Huo (President)
-  linkedin: https://www.linkedin.com/in/timothy-huo-087b121b5/
-  profile: assets/images/profiles/timothy_huo.jpg
-  bio: Hi everyone! My name is Timothy and I am currently a Masters student with an interest in Software Engineering and Machine Learning. Outside of school, I enjoy outdoor activities such as jogging and playing basketball. Looking forward to meeting you all!
-  subject: Web Dev
-
-xavier:
-  full_name: Xavier Burt (Vice-President)
+cody:
+  full_name: Cody Torres (President/Lecturer)
   linkedin: 
-  profile: assets/images/profiles/xavier_burt.jpg
-  bio: Hello, I'm Xavier Burt, I'm a Physics and Computer science major at the University of Hawaii at Manoa, I'm interested in improving myself and helping others, and hope I will be able to do both.
-  subject: Web Dev
+  profile: assets/images/profiles/cody_torres.png
+  bio: Hello! My name is Cody, and I'm a Security Science major who loves to spread the word on how awesome the world of computer science is. Two things I love are video games and self improvement. I'm excited for the future of computing and ICSpark!
+  subject: Web Dev, Security
 
-michael:
-  full_name: Michael Jake Sumaylo (Lecturer)
+briana:
+  full_name: Briana Lee (Vice President)
   linkedin: 
-  profile: assets/images/profiles/michael_jake_sumaylo.jpg
-  bio: Hi! My name is Michael, and I am a senior in Computer Science. Video game development and design are my main interests. Outside of class, I enjoy playing games, listening to music, and watching anime and basketball. I look forward to meeting everyone!
+  profile: assets/images/profiles/briana_lee.jpeg
+  bio: Hi everyone, my name is Briana and I am a Senior majoring in Computer Science at UH Mānoa. I enjoy watching shows, drawing, and spending time with my friends.  
   subject: Web Dev
 
 sydnee:
@@ -26,12 +19,26 @@ sydnee:
   bio: Hello there! My name is Sydnee, and I am a senior majoring in Computer Science. I’m excited to meet you all this coming spring, and I hope you’ll find this experience enjoyable and memorable.
   subject: Web Dev
 
-briana:
-  full_name: Briana Lee (Marketing Officer)
+cade:
+  full_name: Cade Kane (Treasurer)
   linkedin: 
-  profile: assets/images/profiles/briana_lee.jpg
-  bio: Hi everyone, my name is Briana and I am a junior majoring in Computer Science at UH Mānoa. I enjoy watching shows, drawing, and spending time with my friends.  
-  subject: Web Dev 
+  profile: assets/images/profiles/cade_kane.jpg
+  bio: Aloha mai! ʻO Cade Jon Kanoniakapueo Kane koʻu inoa. I am from Honouliuli, ʻEwa, Oʻahu. I am a senior majoring in Computer Science with a minor in Biology. I do bioinformatics and machine learning research and enjoy going to the gym, running, and hanging out with friends. I hope to attend graduate school at UH for Computer Science.
+  subject: Web Dev
+
+david_r:
+  full_name: David Rickards (Webmaster)
+  linkedin: 
+  profile: assets/images/profiles/david_richards.jpg
+  bio: Hi! My name is David Rickards and I'm a third year Computer Science student at UH Manoa. I am working in game development,  listening to music and swimming.
+  subject: Web Dev
+
+xavier:
+  full_name: Xavier Burt
+  linkedin: 
+  profile: assets/images/profiles/xavier_burt.jpg
+  bio: Hello, I'm Xavier Burt, I'm a Physics and Computer science major at the University of Hawaii at Manoa, I'm interested in improving myself and helping others, and hope I will be able to do both.
+  subject: Web Dev
 
 jeff:
   full_name: Jeff Wong
@@ -45,13 +52,6 @@ jordan:
   linkedin: 
   profile: assets/images/profiles/jordan_le.jpg
   bio: I am a UH Manoa student majoring in BA Information and Computer Sciences.  I'm also in the Creative Computational Media (CCM) certificate.  You could say that I'm a software enthusiast.  I am passionate in computer programming and digital art.  I like to help people learn how to code and bring new ideas relating to coding.  It would be a pleasure to help the younger generation learn coding.    
-  subject: Web Dev
-
-liliana:
-  full_name: Liliana Royer
-  linkedin: 
-  profile: assets/images/profiles/liliana_royer.jpg
-  bio: My name is Liliana Royer and I am a UH Manoa transfer student. I am currently in my third year majoring in Computer Science. I enjoy hiking, music, and going to community events. 
   subject: Web Dev
 
 maya:
@@ -68,32 +68,11 @@ adrienne:
   bio: Hello! My name is Adrienne, and I'm majoring in Computer Science. I enjoy drawing, DIY projects, and relaxing as hobbies. 
   subject: Web Dev
 
-cade:
-  full_name: Cade Kane
-  linkedin: 
-  profile: assets/images/profiles/cade_kane.jpg
-  bio: 
-  subject: Web Dev
-
-cody:
-  full_name: Cody Torres
-  linkedin: 
-  profile: assets/images/profiles/cody_torres.jpg
-  bio: o, it's me, Cody! I'm a Computer Science major who likes anything with computers, servers, and video games! I'm ready for anything!
-  subject: Web Dev
-
 david_g:
   full_name: David Gieselman
   linkedin: 
   profile: assets/images/profiles/david_gieselman.jpg
   bio: Hey, I'm David,  I'm a Sophomore majoring in CS. I'm also minoring in Astrophysics because of my passion for space and astronomy. I love creating algorithms, solving problems, and sharing science facts! Outside of school I like to stay active and experience nature.
-  subject: Web Dev
-
-david_r:
-  full_name: David Rickards
-  linkedin: 
-  profile: assets/images/profiles/david_richards.jpg
-  bio: Hi! My name is David Rickards and I'm a third year Computer Science student at UH Manoa. I am working in game development,  listening to music and swimming.
   subject: Web Dev
 
 deavyn:
