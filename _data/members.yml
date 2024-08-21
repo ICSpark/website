@@ -15,8 +15,8 @@ briana:
 sydnee:
   full_name: Sydnee You (Communication Officer)
   linkedin:
-  profile: assets/images/profiles/sydnee_you.png
-  bio: Hello there! My name is Sydnee, and I am a senior majoring in Computer Science. I’m excited to meet you all this coming spring, and I hope you’ll find this experience enjoyable and memorable.
+  profile: assets/images/profiles/sydnee_y.jpeg
+  bio: Hello there! My name is Sydnee, and I am a senior majoring in Computer Science. I enjoy playing video games, swimming, playing flute, drawing, and listening to music. I enjoy helping others learn the basics of coding and hope to continue doing so.
   subject: Web Dev
 
 cade:
@@ -26,11 +26,18 @@ cade:
   bio: Aloha mai! ʻO Cade Jon Kanoniakapueo Kane koʻu inoa. I am from Honouliuli, ʻEwa, Oʻahu. I am a senior majoring in Computer Science with a minor in Biology. I do bioinformatics and machine learning research and enjoy going to the gym, running, and hanging out with friends. I hope to attend graduate school at UH for Computer Science.
   subject: Web Dev
 
+kristine:
+  full_name: Kristine Orpilla (Marketing)
+  linkedin: 
+  profile: assets/images/profiles/kristine_orpilla.jpg
+  bio: Hello, my name is Kristine Orpilla and I am a senior majoring in Computer Science. I am interested in going into software engineering or data science. In my free time, I enjoy listening to music and reading books.
+  subject: Web Dev
+
 david_r:
   full_name: David Rickards (Webmaster)
   linkedin: 
-  profile: assets/images/profiles/david_richards.jpg
-  bio: Hi! My name is David Rickards and I'm a third year Computer Science student at UH Manoa. I am working in game development,  listening to music and swimming.
+  profile: assets/images/profiles/david_r.jpg
+  bio: Hi, my name is David! I am a senior at UH Manoa majoring in Computer Science. I am interested in software engineering and cybersecurity. Outside of school, I enjoy going to the beach, hiking, and gaming.
   subject: Web Dev
 
 xavier:
@@ -110,16 +117,10 @@ kayla:
   bio: Hello! My name is Kayla, I am currently a junior studying computer science at UHM. Outside of school, I enjoy going hiking and swimming at the beach with friends!
   subject: Web Dev
 
-kristine:
-  full_name: Kristine Orpilla
-  linkedin: 
-  profile: assets/images/profiles/kristine_orpilla.jpg
-  bio: Hello, my name is Kristine Orpilla and I am a junior majoring in Computer Science. I am interested in going into software engineering or data science. In my free time, I enjoy listening to music and reading books.
-  subject: Web Dev
 
 seri:
   full_name: Seri Nakamura
   linkedin: 
   profile: assets/images/profiles/seri_nakamura.jpg
-  bio: Hello! My name is Seri Nakamura and I'm a Computer Science and Astronomy Major. Other than school, I like to do crafts, hike, and read.
+  bio: Hello! My name is Seri Nakamura and I'm a Computer Science and Astronomy Major. Other than school, I like to do crafts, go on hikes, and read.
   subject: Web Dev
