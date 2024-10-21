@@ -3,7 +3,7 @@ cody:
   linkedin: 
   profile: assets/images/profiles/cody_torres.png
   bio: Hello! My name is Cody, and I'm a Security Science major who loves to spread the word on how awesome the world of computer science is. Two things I love are video games and self improvement. I'm excited for the future of computing and ICSpark!
-  subject: Web Dev, Security
+  subject: Web Dev, Cybersecurity
 
 briana:
   full_name: Briana Lee (Vice President)
@@ -38,7 +38,7 @@ david_r:
   linkedin: 
   profile: assets/images/profiles/david_r.jpg
   bio: Hi, my name is David! I am a senior at UH Manoa majoring in Computer Science. I am interested in software engineering and cybersecurity. Outside of school, I enjoy going to the beach, hiking, and gaming.
-  subject: Web Dev
+  subject: Web Dev, Cybersecurity
 
 xavier:
   full_name: Xavier Burt
@@ -159,41 +159,49 @@ lukas:
   bio: Hello, my name is Lukas Moroz and I am a junior majoring in Computer Science with a minor is sociology. I enjoy cooking and playing video games.
   subject: Web Dev
 
+seri:
+  full_name: Seri Nakamura
+  linkedin:
+  profile: assets/images/profiles/seri_nakamura.jpg
+  bio: My name is Seri Nakamura and I am a undergraduate senior studying Computer Science and Astronomy. I enjoy crafting and playing games with a side of tea on my free time:) What happens when you overclock a pc? It goes up in 🔥frames🔥 :D
+  subject: Web Dev, Cybersecurity
 
-  #maya:
-  #  full_name: Maya Chang
-  #  linkedin:
-  #  profile: assets/images/profiles/maya_chang.jpg
-  #  bio: Hi everyone!  My name is Maya and I'm a junior majoring in Computer Science.  In my free time I enjoy reading, making crafts and watching YouTube videos.  I also love traveling.  I look forward to meeting you all!
-  #  subject: Web Dev
+derek:
+  full_name: Derek Garcia
+  linkedin:
+  profile: assets/images/profiles/derek_garcia.jpg
+  bio: Hi, I'm Derek! I'm a Computer Science PhD student at UH. When I'm not working on my research, I enjoy making coffee, hiking, and working on random side projects.
+  subject: Web Dev
 
-  #adrienne:
-  #  full_name: Adrienne Kaneshiro
-  #  linkedin:
-  #  profile: assets/images/profiles/adrienne_kaneshiro.jpg
-  #  bio: Hello! My name is Adrienne, and I'm majoring in Computer Science. I enjoy drawing, DIY projects, and relaxing as hobbies.
-  #  subject: Web Dev
-
-  #david_g:
-  #  full_name: David Gieselman
-  #  linkedin:
-  #  profile: assets/images/profiles/david_gieselman.jpg
-  #  bio: Hey, I'm David,  I'm a Sophomore majoring in CS. I'm also minoring in Astrophysics because of my passion for space and astronomy. I love creating algorithms, solving problems, and sharing science facts! Outside of school I like to stay active and experience nature.
-  #  subject: Web Dev
-
-  #deavyn:
-  #  full_name: Deavyn Etscheit
-  #  linkedin:
-  #  profile: assets/images/profiles/deavyn_etscheit.jpg
-  #  bio: I am currently a sophomore majoring in Computer Science. In my free time I like to listen to music, play video games, watch movies, or lift.
-  #  subject: Web Dev
-
-#seri:
-#  full_name: Seri Nakamura
+#maya:
+#  full_name: Maya Chang
 #  linkedin:
-#  profile: assets/images/profiles/seri_nakamura.jpg
-#  bio: Hello! My name is Seri Nakamura and I'm a Computer Science and Astronomy Major. Other than school, I like to do crafts, go on hikes, and read.
+#  profile: assets/images/profiles/maya_chang.jpg
+#  bio: Hi everyone!  My name is Maya and I'm a junior majoring in Computer Science.  In my free time I enjoy reading, making crafts and watching YouTube videos.  I also love traveling.  I look forward to meeting you all!
 #  subject: Web Dev
+
+#adrienne:
+#  full_name: Adrienne Kaneshiro
+#  linkedin:
+#  profile: assets/images/profiles/adrienne_kaneshiro.jpg
+#  bio: Hello! My name is Adrienne, and I'm majoring in Computer Science. I enjoy drawing, DIY projects, and relaxing as hobbies.
+#  subject: Web Dev
+
+#david_g:
+#  full_name: David Gieselman
+#  linkedin:
+#  profile: assets/images/profiles/david_gieselman.jpg
+#  bio: Hey, I'm David,  I'm a Sophomore majoring in CS. I'm also minoring in Astrophysics because of my passion for space and astronomy. I love creating algorithms, solving problems, and sharing science facts! Outside of school I like to stay active and experience nature.
+#  subject: Web Dev
+
+#deavyn:
+#  full_name: Deavyn Etscheit
+#  linkedin:
+#  profile: assets/images/profiles/deavyn_etscheit.jpg
+#  bio: I am currently a sophomore majoring in Computer Science. In my free time I like to listen to music, play video games, watch movies, or lift.
+#  subject: Web Dev
+
+
 
 #haku:
 #  full_name: Haku Yamada
