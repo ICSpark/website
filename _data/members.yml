@@ -173,12 +173,12 @@ derek:
   bio: Hi, I'm Derek! I'm a Computer Science PhD student at UH. When I'm not working on my research, I enjoy making coffee, hiking, and working on random side projects.
   subject: Web Dev
 
-#maya:
-#  full_name: Maya Chang
-#  linkedin:
-#  profile: assets/images/profiles/maya_chang.jpg
-#  bio: Hi everyone!  My name is Maya and I'm a junior majoring in Computer Science.  In my free time I enjoy reading, making crafts and watching YouTube videos.  I also love traveling.  I look forward to meeting you all!
-#  subject: Web Dev
+maya:
+  full_name: Maya Chang
+  linkedin:
+  profile: assets/images/profiles/maya_chang.jpg
+  bio: Hi everyone!  My name is Maya and I'm a junior majoring in Computer Science.  In my free time I enjoy reading, making crafts and watching YouTube videos.  I also love traveling.  I look forward to meeting you all!
+  subject: Web Dev
 
 #adrienne:
 #  full_name: Adrienne Kaneshiro
